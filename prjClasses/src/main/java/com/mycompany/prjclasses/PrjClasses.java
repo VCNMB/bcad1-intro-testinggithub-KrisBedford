@@ -9,9 +9,12 @@ package com.mycompany.prjclasses;
  * @author lab_services_student
  */
 public class PrjClasses {
-
-    public static void main(String[] args) {
-        System.out.println("Bed Of Chaos isn't that bad");
-        System.out.println("Plin plin plon");
+    
+    public static void main(String[] args) 
+    {
+        newClass nc = new newClass();
+        nc.helloClass();
+        System.out.println(nc.strSecondClassVar);
     }
 }
+
